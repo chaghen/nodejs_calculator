@@ -2,13 +2,13 @@ import express  from 'express';
 
 const app = express();
 import 'dotenv/config'
-// require('dotenv').config();
+
 import path, { resolve } from "path";
 import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-// const path = require("path");
+
 
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -22,4 +22,3 @@ app.listen(process.env.PORT || 5000,()=>{
     console.log("server is nunning well");
   
   });
-  

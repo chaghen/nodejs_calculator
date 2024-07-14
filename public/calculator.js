@@ -75,7 +75,10 @@ const  handleFunctions = (digit) =>{
       break;
   }
 }
-
+      /**
+       * Gère les opérations de calcule
+       * @param {*} valueText 
+       */
  const handleOperations = (valueText) =>{
   operation = valueText;
   buttonsOperation.forEach((e) =>
