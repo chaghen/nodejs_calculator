@@ -1,5 +1,5 @@
 
-# Super calculatrice en javascript
+# Super calculatrice en javascript hello world
 
 l'applicattion permet de faire ses calcules comme une calculatrice de plus normale
 
