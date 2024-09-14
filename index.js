@@ -16,6 +16,8 @@ app.get('/',(req,res)=>{
     res.sendFile(path.resolve(__dirname,"public/index.html")); 
 })
 
+Bonjour mon code
+
 
 app.listen(process.env.PORT || 5000,()=>{
   
